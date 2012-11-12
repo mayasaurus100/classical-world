@@ -1,0 +1,163 @@
+svg {
+  font: 10px sans-serif;
+}
+
+.background path {
+  fill: none;
+  stroke: #ccc;
+  stroke-opacity: .4;
+  shape-rendering: crispEdges;
+}
+
+.foreground path {
+  fill: none;
+  stroke: #e04242;
+  stroke-opacity: .5;
+  stroke-width: 2;
+}
+
+.brush .extent {
+  fill-opacity: .3;
+  stroke: #fff;
+  shape-rendering: crispEdges;
+}
+
+.axis line, .axis path {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+  text-shadow: 0 1px 0 #fff;
+  cursor: move;
+}
+
+#main {
+  border:2px solid gray;
+  margin:0 auto;
+  padding:0;
+  overflow:hidden;
+  background-color:#CEECF5;
+  height:800px;
+  width:100%;
+}
+
+#map {
+  border:2px solid gray;
+  float:left;
+  width:65%;
+  height:100%;
+  overflow:hidden;
+  border-radius:15px;
+  background-color:#fdfbf1;
+  margin:0 auto;
+  padding:0;
+}
+
+#optionsPanel {
+  float: right;
+  height:100%;
+  width: 34%;
+  margin:0 auto;
+  padding:0;
+}
+
+#leftBar {
+  border:2px solid gray;
+  float:left;
+  width:49%;
+  height:100%;
+  line-height:1.0;
+  overflow: hidden;
+  border-radius:15px;
+  background-color:#fdfbf1;
+  margin:0 auto;
+  padding:0;
+}
+
+#rightBar {
+  border:2px solid gray;
+  float:right;
+  width:50%;
+  height:100%;
+  overflow-y:auto;
+  overflow-x:hidden;
+  border-radius:15px;
+  background-color:#fdfbf1;
+  margin:0 auto;
+  padding:0;
+}
+
+#parallel {
+  border:2px solid gray;
+  border-radius:15px;
+  background-color:#fdfbf1;
+  width:100%;
+}
+
+#placeTable {
+  border:2px solid gray;
+  border-radius:15px;
+  background-color:#fdfbf1;
+  width:100%;
+  height:400px;
+  overflow:auto;
+}
+
+#checkboxes {
+  overflow-y:auto;
+  overflow-x:hidden;
+  width:100%;
+  height:50%;
+  border:2px solid gray;
+  border-radius:15px;
+  background-color:#fdfbf1;
+}
+
+#binary {
+  overflow-y:auto;
+  overflow-x:hidden;
+  width:100%;
+  height:50%;
+  border:2px solid gray;
+  border-radius:15px;
+  background-color:#fdfbf1;
+}
+
+#title {
+  border:2px solid gray;
+  border-radius:15px;
+  background-color:#fdfbf1;
+  height:60px;
+  font-size:x-large;
+  font-family:arial;
+}
+
+.checkboxForm {
+  display:block;
+}
+
+/*.binaryForm {
+  display: -moz-inline-box;
+  display: inline-block;
+  width: 150px;
+  margin-left: 10px;
+  vertical-align: top;
+  font-family:arial;
+  font-size:small;
+}*/
+
+.placeForm {
+  margin-left: 0px;
+}
+
+label {
+  display: -moz-inline-box;
+  display: inline-block;
+  width: 150px;
+  margin-left: 10px;
+  vertical-align: top;
+  font-family:arial;
+  font-size:small;
+}
